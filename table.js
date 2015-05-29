@@ -1,3 +1,9 @@
 $(document).ready( function () {
-    $('#weibo').DataTable();
+    $('#weibo').DataTable(
+    {
+    paging: false,
+    scrollY: 700
+    }
+
+    );
 } );
