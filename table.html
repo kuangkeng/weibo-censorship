@@ -1,0 +1,1421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.js"></script>
+</head>
+
+<body> 
+<table id="weibo">
+  <thead>
+    <tr>
+      <th class="敏感词-cell">敏感词</th>
+      <th class="Words-cell">Words</th>
+      <th class="Censored Date-cell">Censored Date</th>
+      <th class="Category-cell">Category</th>
+      <th class="Related Issue-cell">Related Issue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="firstRow">
+      <td class="敏感词-cell">打压＋大V</td>
+      <td class="Words-cell">suppress + Big V</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://www.chinadaily.com.cn/china/2015-05/21/content_20785494.htm</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">中央统战部部长</td>
+      <td class="Words-cell">head of the United Front Work Department</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://www.chinadaily.com.cn/china/2015-05/21/content_20785494.htm</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">藏人＋住旅店被拒</td>
+      <td class="Words-cell">Tibetan + be refused hotel booking</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://www.rfa.org/english/news/china/china-minorities-05142015143907.html</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">（习）近平＋暗杀</td>
+      <td class="Words-cell">[Xi] Jinping + assassinate</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell"></td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋情妇</td>
+      <td class="Words-cell">Xi + mistress</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell"></td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习金瓶</td>
+      <td class="Words-cell">Xi Golden Vase [Xi Jinping]</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell"></td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平＋罪状</td>
+      <td class="Words-cell">Xi Jinping + charges [in indictment]</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell"></td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">江＋央视</td>
+      <td class="Words-cell">Jiang [Zemin] + CCTV</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell"></td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">江＋博物馆</td>
+      <td class="Words-cell">Jiang [Zemin] + museum</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell"></td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">李源潮＋妻子</td>
+      <td class="Words-cell">Li Yuanchao + wife</td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Li_Yuanchao</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">供匪</td>
+      <td class="Words-cell">supply bandits [sounds like </td>
+      <td class="Censored Date-cell">5/22/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell"></td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">贾晓霞</td>
+      <td class="Words-cell">Jia Xiaoxia (Margaret Jia)</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://www.wantchinatimes.com/news-subclass-cnt.aspx?id=20150503000139&cid=1101</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">林昭＋秘密枪决</td>
+      <td class="Words-cell">Lin Zhao + secret execution by firing squad</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/05/sensitive-words-trying-to-visit-lin-zhaos-grave/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">林昭＋祭日</td>
+      <td class="Words-cell">Lin Zhao + memorial day</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/05/sensitive-words-trying-to-visit-lin-zhaos-grave/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">子弹</td>
+      <td class="Words-cell">bullet</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">杨建利</td>
+      <td class="Words-cell">Yang Jianli</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Yang_Jianli</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">党争</td>
+      <td class="Words-cell">struggle among political factions</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">权力交接</td>
+      <td class="Words-cell">transfer of power</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">老虎＋浮出水面</td>
+      <td class="Words-cell">tiger + rise to the surface</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Anti-corruption_campaign_in_China</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平＋曾庆红</td>
+      <td class="Words-cell">Xi Jinping + Zeng Qinghong</td>
+      <td class="Censored Date-cell">5/6/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">王健林＋权贵</td>
+      <td class="Words-cell">Wang Jianlin + bigwig</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-wang-jianlin/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">万达股份＋习近平</td>
+      <td class="Words-cell">Wanda shares + Xi Jinping</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-wang-jianlin/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋姐姐</td>
+      <td class="Words-cell">Xi + older sister</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-wang-jianlin/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">高瑜</td>
+      <td class="Words-cell">Gao Yu</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Gao_Yu_(journalist)</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">李锐＋海关</td>
+      <td class="Words-cell">Li Rui + customs</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://www.nytimes.com/2015/04/26/world/asia/china-lawsuit-over-banned-li-rui-memoir-censorship.html</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">鲍樸</td>
+      <td class="Words-cell">Bao Pu</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://www.nytimes.com/2015/04/26/world/asia/china-lawsuit-over-banned-li-rui-memoir-censorship.html</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">毛主席像＋泼墨</td>
+      <td class="Words-cell">Mao Zedong's portrait + splash ink</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://www.foxnews.com/world/2015/04/22/chinese-man-jailed-14-months-for-splashing-ink-on-mao-zedong-portrait-in/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平＋果敢</td>
+      <td class="Words-cell">Xi Jinping + kokang</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://thediplomat.com/2015/03/despite-chinas-warnings-cross-border-strikes-from-myanmar-continue/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">公民＋审判</td>
+      <td class="Words-cell">citizen + trial</td>
+      <td class="Censored Date-cell">4/29/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">熊焱</td>
+      <td class="Words-cell">Xiong Yan</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://sinosphere.blogs.nytimes.com/2015/04/17/tiananmen-protesters-plea-to-china-let-me-see-my-dying-mother/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">鲁昕</td>
+      <td class="Words-cell">Lu Xin</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://www.chinavitae.com/biography/Lu_Xin%7C4105</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">中国＋最穷国家</td>
+      <td class="Words-cell">China + poorest country</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">武嵘嵘＋女权＋人士</td>
+      <td class="Words-cell">Wu Rongrong + women's rights + personage</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">郑楚然＋女权＋人</td>
+      <td class="Words-cell">Zheng Churan + women's rights + person</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">李婷婷＋女权＋人</td>
+      <td class="Words-cell">Li Tingting + women's rights + person</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">韦婷婷＋女权＋人</td>
+      <td class="Words-cell">Wei Tingting + women's rights + person</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">王曼＋女权</td>
+      <td class="Words-cell">Wang Man + women's rights</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">武嵘嵘＋释放</td>
+      <td class="Words-cell">Wu Rongrong + release</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">郑楚然＋释放</td>
+      <td class="Words-cell">Zheng Churan + release</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">李婷婷＋释放</td>
+      <td class="Words-cell">Li Tingting + release</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">韦婷婷＋释放</td>
+      <td class="Words-cell">Wei Tingting + release</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">王曼＋释放</td>
+      <td class="Words-cell">Wang Man + women's rights</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-release-of-the-feminist-five/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">张越＋周永康</td>
+      <td class="Words-cell">Zhang Yue + Zhou Yongkang</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://www.nytimes.com/2015/04/03/world/asia/china-zhou-yongkang-communist-party-faces-corruption-trial.html</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">明镜＋周永康</td>
+      <td class="Words-cell">MIngjiang + Zhou Yongkang</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://www.nytimes.com/2015/04/03/world/asia/china-zhou-yongkang-communist-party-faces-corruption-trial.html</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">2号专案组</td>
+      <td class="Words-cell">number 2 investigating team</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://www.nytimes.com/2015/04/03/world/asia/china-zhou-yongkang-communist-party-faces-corruption-trial.html</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">三角政治同盟</td>
+      <td class="Words-cell">three-point political alliance</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://www.nytimes.com/2015/04/03/world/asia/china-zhou-yongkang-communist-party-faces-corruption-trial.html</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">曾山＋邓六金</td>
+      <td class="Words-cell">Zeng Shan + Deng Liujin</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Zeng_Qinghong</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平＋清算</td>
+      <td class="Words-cell">Xi Jinping + settle accounts</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平＋智囊</td>
+      <td class="Words-cell">Xi Jinping + wise advisor</td>
+      <td class="Censored Date-cell">4/16/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">九门提督</td>
+      <td class="Words-cell">Commander of the Nine Gates</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">傅振华</td>
+      <td class="Words-cell">Fu Zhenhua (Fu Zhenghua)</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">傅正华</td>
+      <td class="Words-cell">Fu Zhenghua</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">傅震华</td>
+      <td class="Words-cell">Fu ZhenhuA (Fu Zhenghua)</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋胡舒立</td>
+      <td class="Words-cell">Xi + Hu Shuli</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/drawing-the-news-hu-shuli-vs-guo-wengui/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋王小洪</td>
+      <td class="Words-cell">Xi + Wang Xiaohong</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">（习）近平＋权力斗争</td>
+      <td class="Words-cell">[Xi] Jinping + power struggle</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">胡＋家史</td>
+      <td class="Words-cell">Hu + family history</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/drawing-the-news-hu-shuli-vs-guo-wengui/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">中央警卫局＋缴械</td>
+      <td class="Words-cell">Central Security Bureau + surrender</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">李友＋日本豪宅</td>
+      <td class="Words-cell">Li You + Japan mansion</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://www.scmp.com/news/china/article/1690087/chinas-vice-president-li-yuanchao-apparent-move-deny-online-founder-group?page=all</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平时代</td>
+      <td class="Words-cell">Xi Jinping era</td>
+      <td class="Censored Date-cell">4/2/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/04/sensitive-words-xis-security-shuffle/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">带走＋女权</td>
+      <td class="Words-cell">take away + women's rights [activists]</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-womens-rights-activists-detained/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">郑楚然＋被带走</td>
+      <td class="Words-cell">Zheng Churan + taken away</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-womens-rights-activists-detained/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">李麦子＋被带走</td>
+      <td class="Words-cell">Li Maizi + taken away</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-womens-rights-activists-detained/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">韦婷婷＋被带走</td>
+      <td class="Words-cell">Wei Tingting + taken away</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-womens-rights-activists-detained/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">王曼＋被带走</td>
+      <td class="Words-cell">Wang Man + taken away</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-womens-rights-activists-detained/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">拜城＋警察</td>
+      <td class="Words-cell">Baicheng [County] + police</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/xinjiang-han-residents-urged-to-increase-safety-measures/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">皮山＋爆炸</td>
+      <td class="Words-cell">Pishan [County] + explosion</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/xinjiang-han-residents-urged-to-increase-safety-measures/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">喀什＋出事</td>
+      <td class="Words-cell">Kashgar + something happened</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/xinjiang-han-residents-urged-to-increase-safety-measures/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋之江新军</td>
+      <td class="Words-cell">Xi + new army of Zhijiang</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2014/01/daddy-xis-book-now-2nd-printing/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">之江新军＋闽江旧部</td>
+      <td class="Words-cell">new army of Zhijiang + former troops of the Min River</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">丁薛祥</td>
+      <td class="Words-cell">Ding Xuexiang</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://shanghaiist.com/2013/12/30/ding-xuexiang-xi-jinping-personal-secretary.php</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋微薄</td>
+      <td class="Words-cell">Xi + meager (weibo)</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">庆亲王</td>
+      <td class="Words-cell">Prince Qing of First Rank</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-prince-zeng-qinghong/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">庆＋老虎</td>
+      <td class="Words-cell">Qing + tiger</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-prince-zeng-qinghong/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">江＋才厚</td>
+      <td class="Words-cell">Jiang [Zemin] + [Xu] Caihou</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://www.cnn.com/2015/03/15/china/china-corruption-xu-caihou-dies/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">剿匪不力</td>
+      <td class="Words-cell">insufficiently suppress bandits (Chiang Kai-shek)</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">朱榕基</td>
+      <td class="Words-cell">Zhu Rongji</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">朱熔基</td>
+      <td class="Words-cell">Zhu Rongji</td>
+      <td class="Censored Date-cell">3/18/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">中国＋网民＋自由</td>
+      <td class="Words-cell">China + netizens + freedom</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋水货客＋示威</td>
+      <td class="Words-cell">Hong Kong + parallel traders + demonstration</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">http://www.bbc.com/news/world-asia-china-31689188</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平＋戈尔巴乔夫</td>
+      <td class="Words-cell">Xi Jinping + Gorbachev</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://www.wsj.com/articles/the-coming-chinese-crack-up-1425659198</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">庆丰帝</td>
+      <td class="Words-cell">Emperor Qingfeng (steamed bun shop)</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-xi-jinping-emperor-of-steamed-buns/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">庆丰三年</td>
+      <td class="Words-cell">third year of Qingfeng's reign</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-xi-jinping-emperor-of-steamed-buns/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">庆丰二年</td>
+      <td class="Words-cell">second year of Qingfeng's reign</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-xi-jinping-emperor-of-steamed-buns/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">庆丰元年</td>
+      <td class="Words-cell">first year of Qingfeng's reign</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-xi-jinping-emperor-of-steamed-buns/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习某</td>
+      <td class="Words-cell">a certain Xi [Jinping]</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">(谷)俊山＋2000万</td>
+      <td class="Words-cell">[Gu] Junshen + 20 million</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Gu_Junshan</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">才厚＋儿子</td>
+      <td class="Words-cell">[Xu] Caihou + son</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Gu_Junshan</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">袁贵人</td>
+      <td class="Words-cell">Yuan Guiren</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Yuan_Guiren</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">曾庆洪</td>
+      <td class="Words-cell">Zeng Qinghong</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Zeng_Qinghong</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋评价＋江</td>
+      <td class="Words-cell">Xi [Jinping] + evaluate + Jiang [Zemin]</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">维族＋砍</td>
+      <td class="Words-cell">Uyghur + chop</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://www.cnn.com/2015/03/06/asia/china-railway-attack/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">电力一姐</td>
+      <td class="Words-cell">first lady of power (Li Xiaolin)</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Li_Xiaolin</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">天安门＋举牌</td>
+      <td class="Words-cell">Tiananmen + hold up a sign</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Tiananmen</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">行为艺术</td>
+      <td class="Words-cell">performance art</td>
+      <td class="Censored Date-cell">3/13/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">穹顶之下</td>
+      <td class="Words-cell">Under the Dome</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-dome/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">雾霾＋APEC</td>
+      <td class="Words-cell">smog + APEC</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-dome/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">曾庆(红)＋亲王</td>
+      <td class="Words-cell">Zeng Qing[hong] + Prince Qing</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-prince-zeng-qinghong/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">(曾)庆红＋庆亲王</td>
+      <td class="Words-cell">[Zeng] Qinghong + Prince Qing of First Rank</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-prince-zeng-qinghong/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">曾伟＋澳大利亚</td>
+      <td class="Words-cell">Zeng Wei + Australia</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-prince-zeng-qinghong/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">(曾)庆红＋(胡)锦涛</td>
+      <td class="Words-cell">[Zeng] Qinghong + [Hu] Jintao</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-prince-zeng-qinghong/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">邢运明</td>
+      <td class="Words-cell">Xing Yunming</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://www.scmp.com/news/china/article/1729631/chinese-military-intelligence-chief-xing-yunming-held-graft-inquiry</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">江＋贪腐</td>
+      <td class="Words-cell">Jiang [Zemin] + corrupt</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">接班人＋胡春华</td>
+      <td class="Words-cell">successor + Hu Junhua</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Hu_Chunhua</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋称帝</td>
+      <td class="Words-cell">Xi + call [him] emperor</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-xi-jinping-emperor-of-steamed-buns/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">刁包子</td>
+      <td class="Words-cell">Steamed Bun Diao (Xi Jinping)</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/03/sensitive-words-xi-jinping-emperor-of-steamed-buns/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">彭＋解放军艺术</td>
+      <td class="Words-cell">Peng [Liyuan] + PLA Arts [College]</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/Peng_Liyuan</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">开放报禁</td>
+      <td class="Words-cell">lift press ban</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">邓三科</td>
+      <td class="Words-cell">Deng Three-science (Deng Xiaoping Theory, Three Represents, Scientific Development Outlook)</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">--</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">中央警卫团</td>
+      <td class="Words-cell">Chinese Central Safeguard Regiment</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://www.scmp.com/news/china/article/1734712/president-xi-reshuffles-elite-unit-guards-communist-party-leaders-safety</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">军管</td>
+      <td class="Words-cell">military control</td>
+      <td class="Censored Date-cell">3/8/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://www.scmp.com/news/china/article/1734712/president-xi-reshuffles-elite-unit-guards-communist-party-leaders-safety</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">袁＋上百亿</td>
+      <td class="Words-cell">Yuan + over ten billion</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">袁＋(儿)子＋教材</td>
+      <td class="Words-cell">Yuan + son + teaching material</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">高严＋猎狐行动</td>
+      <td class="Words-cell">Gao Yan + Operation Fox Hunt</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">星际赌场</td>
+      <td class="Words-cell">StarWorld casino</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">十八摸</td>
+      <td class="Words-cell">eighteen strokes</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习老</td>
+      <td class="Words-cell">Xi old</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋信号</td>
+      <td class="Words-cell">Xi + signal</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">红朝太祖</td>
+      <td class="Words-cell">first emperor of the red dynasty (Mao Zedong)</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">zhou＋带鱼</td>
+      <td class="Words-cell">zhou + cutlassfish</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">周黛玉</td>
+      <td class="Words-cell">Zhou Daiyu</td>
+      <td class="Censored Date-cell">2/26/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lg1</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">今年＋2015年</td>
+      <td class="Words-cell">this year + 2015</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">纳税人的钱哪去了</td>
+      <td class="Words-cell">where has the taxpayer's money gone</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">腐败＋震惊</td>
+      <td class="Words-cell">corruption + shock</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">网特</td>
+      <td class="Words-cell">Internet agent</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">不雅</td>
+      <td class="Words-cell">indecency</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Others</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">刁犬犬</td>
+      <td class="Words-cell">Diao Quanquan (Xi Jinping)</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋包子</td>
+      <td class="Words-cell">Xi + steamed bun</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/china/xi-jinpings-steamed-buns/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋请求</td>
+      <td class="Words-cell">Xi + request</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">黑黑习</td>
+      <td class="Words-cell">a certain Xi</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">港媒＋大老虎</td>
+      <td class="Words-cell">Hong Kong media + big tiger</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">王敏＋山东帮总管</td>
+      <td class="Words-cell">Wang Min + leader of Shandong gang</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">永康＋沈冰</td>
+      <td class="Words-cell">Yongkang + Shen Bing</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">永康＋儿子</td>
+      <td class="Words-cell">Yongkang + son</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">永康＋薄</td>
+      <td class="Words-cell">Yongkang + Bo</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">南充＋贿选</td>
+      <td class="Words-cell">Nanchong + election bribery</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">杨建华</td>
+      <td class="Words-cell">Yang Jianhua</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">二奸二(假)</td>
+      <td class="Words-cell">two betrayals and two falsehoods</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">江氏＋黑幕</td>
+      <td class="Words-cell">Jiang clan + dirty secrets</td>
+      <td class="Censored Date-cell">2/23/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Lf6</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">大荤君</td>
+      <td class="Words-cell">Da Hun Jun</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2015/01/minitrue-mengniu-dairys-deshelved-drink/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">贾廷安被抓</td>
+      <td class="Words-cell">Jia Ting'an nabbed</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">贾廷安被调查</td>
+      <td class="Words-cell">Jia Ting’an under investigation</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">祖英＋豪宅</td>
+      <td class="Words-cell">Zuying + mansion</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">方舟子</td>
+      <td class="Words-cell">Fang Zhouzi</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">周＋带鱼</td>
+      <td class="Words-cell">Zhou + cutlassfish</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">寻衅滋事</td>
+      <td class="Words-cell">picking quarrels and provoking troubles</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Klo</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">令计划＋大秘</td>
+      <td class="Words-cell">Ling Jihua + big secret</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">江＋现身</td>
+      <td class="Words-cell">Jiang + shows himself</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">江绵恒＋双规</td>
+      <td class="Words-cell">Jiang Mianheng + shuanggui</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋马云</td>
+      <td class="Words-cell">Xi + Jack Ma</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋拉帮结派</td>
+      <td class="Words-cell">Xi + cliques</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习＋微信</td>
+      <td class="Words-cell">Xi + WeChat</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">（习）近平＋大秘</td>
+      <td class="Words-cell">(Xi) Jinping + big secret</td>
+      <td class="Censored Date-cell">1/29/2015</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-L3Y</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">郭玉闪＋寻衅滋事</td>
+      <td class="Words-cell">Guo Yushan + picking quarrels and provoking troubles</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Klo</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">撑＋学生</td>
+      <td class="Words-cell">support + students</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">zhanzhong</td>
+      <td class="Words-cell">zhanzhong (Occupy Central)</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋黑衣</td>
+      <td class="Words-cell">Hong Kong + black clothes</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋平反</td>
+      <td class="Words-cell">Hong Kong + redress</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋防暴警察</td>
+      <td class="Words-cell">Hong Kong + riot police</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">习近平＋武力清场</td>
+      <td class="Words-cell">Xi Jinping + clear space with armed force</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">三穗＋武警</td>
+      <td class="Words-cell">Sansui + armed police</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://online.thatsmags.com/post/tens-of-thousands-in-guizhou-protest-against-county-merger</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">三穗＋警察</td>
+      <td class="Words-cell">Sansui + police</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://online.thatsmags.com/post/tens-of-thousands-in-guizhou-protest-against-county-merger</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">三穗＋游行</td>
+      <td class="Words-cell">Sansui + march</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://online.thatsmags.com/post/tens-of-thousands-in-guizhou-protest-against-county-merger</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">邓＋女婿</td>
+      <td class="Words-cell">Deng [Xiaoping] + son-in-law</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Klo</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">蔡明照</td>
+      <td class="Words-cell">Cai Mingzhao</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Klo</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">（芮）成钢＋（王）岐山</td>
+      <td class="Words-cell">[Rui] Chenggang + [Wang] Qishan</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Scandal & Corruption</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2014/07/celebrity-cctv-anchor-rui-chenggang-detained-amid-corruption-crackdown/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">毒菜政府（即“独裁”政府）</td>
+      <td class="Words-cell">poisoned vegetable government</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Censorship</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Klo</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">告别央视＋这个时代的一些真话</td>
+      <td class="Words-cell">farewell to CCTV + some true words for this era</td>
+      <td class="Censored Date-cell">10/15/2014</td>
+      <td class="Category-cell">Dissident</td>
+      <td class="Related Issue-cell">http://chinadigitaltimes.net/2013/12/wang-qinglei-farewell-cctv/</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋抗议＋人大</td>
+      <td class="Words-cell">Hong Kong + protest + People’s Congress</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">umbrella revolution</td>
+      <td class="Words-cell">umbrella revolution</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">撑起雨伞</td>
+      <td class="Words-cell">open umbrella</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">雨遮革命</td>
+      <td class="Words-cell">awning revolution</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港觉醒</td>
+      <td class="Words-cell">Hong Kong wake up</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">敢想不敢说</td>
+      <td class="Words-cell">dare to think not dare to say</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">站中</td>
+      <td class="Words-cell">stand Central</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">占领＋旺角</td>
+      <td class="Words-cell">occupy + Mong Kok</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">占领＋铜锣湾</td>
+      <td class="Words-cell">occupy + Causeway Bay</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">包围＋政总</td>
+      <td class="Words-cell">surround + central government [offices]</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">冲击＋政总</td>
+      <td class="Words-cell"> impact + central government [offices]</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">旺角集会</td>
+      <td class="Words-cell">Mong Kok assembly</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">张秀贤</td>
+      <td class="Words-cell">Tommy Cheung Sau-yin</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">王光伟＋阶级斗争</td>
+      <td class="Words-cell">great glorious and correct + class struggle</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Political Event & Issue</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Kie</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">主习</td>
+      <td class="Words-cell">Master Xi</td>
+      <td class="Censored Date-cell">10/8/2014</td>
+      <td class="Category-cell">Politician</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Kie</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">雨伞革命</td>
+      <td class="Words-cell">umbrella revolution</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">遮打革命</td>
+      <td class="Words-cell">Chater revolution</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">伞花革命</td>
+      <td class="Words-cell">umbrella flower revolution</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">谁还未发声</td>
+      <td class="Words-cell">Do You Hear the People Sing</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">戴耀廷</td>
+      <td class="Words-cell">Benny Tai</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">朱耀明</td>
+      <td class="Words-cell">Chu Yiu-ming</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">公民提名</td>
+      <td class="Words-cell">citizen nomination</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">添马公园</td>
+      <td class="Words-cell">Tamar Park</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">胡椒喷雾</td>
+      <td class="Words-cell">pepper spray</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋清场</td>
+      <td class="Words-cell">Hong Kong + clear the square</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">示威＋胡（椒）</td>
+      <td class="Words-cell">demonstrate + hu(jiao)</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">必须旗帜鲜明地反对动乱</td>
+      <td class="Words-cell">It Is Necessary to Take a Clear-cut Stand Against Disturbances</td>
+      <td class="Censored Date-cell">10/1/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://wp.me/p2pAV0-Kfz</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋学生</td>
+      <td class="Words-cell">Hong Kong + students</td>
+      <td class="Censored Date-cell">9/29/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋罢课</td>
+      <td class="Words-cell">Hong Kong + student strike</td>
+      <td class="Censored Date-cell">9/29/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr>
+      <td class="敏感词-cell">香港＋催泪弹</td>
+      <td class="Words-cell">Hong Kong + tear gas canister</td>
+      <td class="Censored Date-cell">9/29/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+    <tr class="lastRow">
+      <td class="敏感词-cell">香港＋开枪</td>
+      <td class="Words-cell">Hong Kong + open fire</td>
+      <td class="Censored Date-cell">9/29/2014</td>
+      <td class="Category-cell">Protest</td>
+      <td class="Related Issue-cell">http://en.wikipedia.org/wiki/2014_Hong_Kong_protests</td>
+    </tr>
+  </tbody>
+</table>
+
+<script type="text/javascript" src="table.js"></script>
+
+
+</body>
+</html>
