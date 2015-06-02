@@ -28,10 +28,5 @@ body {
 .back
 {
   padding:15px;
+  border:1px solid #D3D3D3;
 }
-
-.front, .back
-{
-  border:1px solid black;
-}
-
