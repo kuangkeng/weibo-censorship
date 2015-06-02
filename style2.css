@@ -23,10 +23,15 @@ body {
   position: relative;
   width: 340px;
   height:390px;
-  border:1px solid black;
+}
+
+.back
+{
+  padding:15px;
 }
 
 .front, .back
 {
-  padding:15px;
+  border:1px solid black;
 }
+
