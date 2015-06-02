@@ -1,1 +1,1 @@
-$("#box01,#box02,#box03,#box04,#box05,#box06,#box07,#box08,#box09,#box10,#box11,#box12").flip();
+$("#card01a,#card02a,#card03a,#card04a,#card05a,#card06a,#card07a,#card08a,#card09a,#card10a,#card11a,#card12a").flip();
