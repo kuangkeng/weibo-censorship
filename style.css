@@ -10,6 +10,12 @@ body {
   line-height: 28px;
       }  
 
+#card_wrapper{
+  margin:0px auto;
+  width: 100%;
+  max-width: 1070px;
+}
+
 #card01a, #card02a, #card03a, #card04a, #card05a, #card06a, #card07a, #card08a, #card09a, #card10a, #card11a, #card12a
 {
   margin:5px;
